@@ -1,4 +1,4 @@
-{ "name" : "nativescript-amazon-mobile-hub",
+{ "name" : "nativescript-aws-mobile-hub",
   "main" : "mobile-hub.js",
   "version": "0.0.1",
   "nativescript": {

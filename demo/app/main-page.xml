@@ -1,0 +1,46 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="loaded" class="page">
+    <!--
+    The ActionBar is the NativeScript common abstraction over the Android ActionBar and iOS NavigationBar.
+    http://docs.nativescript.org/ui/action-bar
+    -->
+    <Page.actionBar>
+        <ActionBar title="AWS Mobile Hub" icon="" class="action-bar">
+        </ActionBar>
+    </Page.actionBar>
+
+    <ScrollView>
+        <GridLayout>
+            <StackLayout class="p-20">
+                
+                <Button text="Sign In" tap="onSignIn" class="btn btn-primary btn-active"/>
+
+                <Button text="Sign In Facebook" tap="onFacebookLogin" class="btn btn-primary btn-active"/>
+
+                <Button text="Sign Up" tap="onSignUp" class="btn btn-primary btn-active"/>
+
+                <Button text="Sign In Previous" tap="onSignInPrevious" class="btn btn-primary btn-active"/>
+                
+                <Button text="SignUp Confirmation Code" tap="onSignUpConfirmationCode" class="btn btn-primary btn-active"/>
+
+                <Button text="Fetch UserId" tap="onFetchUserId" class="btn btn-primary btn-active"/>
+
+                <Button text="Fetch UserInfo And Image" tap="onFetchUserInfoAndImage" class="btn btn-primary btn-active"/>
+                
+                <Button text="Get User Info" tap="onGetUserInfo" class="btn btn-primary btn-active"/>
+
+                <Button text="Forget Password" tap="onForgetPassword" class="btn btn-primary btn-active"/>
+
+                <Button text="Forget Password Confirmation Code" tap="onForgetPasswordCodeConfirmation" class="btn btn-primary btn-active"/>
+
+                <Button text="Insert Data" tap="onInsertData" class="btn btn-primary btn-active"/>
+
+                
+                <Label text="{{ message }}" class="h2 text-center" textWrap="true"/>
+
+            </StackLayout>
+            
+            <ActivityIndicator busy="{{ loading }}" />
+        </GridLayout>
+    </ScrollView>
+
+</Page>
