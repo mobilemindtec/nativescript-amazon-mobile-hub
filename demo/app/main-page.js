@@ -17,13 +17,13 @@ exports.loaded = function(args) {
 
     mobileHub = new MobileHub({
         mobilehub: {
-            userAgent: 
+            userAgent: "MobileHub ba43bb04-d7a3-488e-9dc8-6265a5b7cbcc aws-my-sample-app-android-v0.15"
         },
         cognito: {
-            identityPoolID: ,
-            userPoolID: ,
-            userPoolClientID: ,
-            userPoolClienteSecret: ,
+            identityPoolID: "us-east-1:09ffe8d1-a4f0-412f-a735-1347c5c11181",
+            userPoolID: "us-east-1_Igo0RrJXw",
+            userPoolClientID: "65048c1ho78aegb7915re9pho1",
+            userPoolClienteSecret: "15gopf47d0l1tvdcr6bc8387ivt2lvsm412st1n4aivlvq8n7s34",
             regionName: "us-east-1"
         },
         dynamonDB: {

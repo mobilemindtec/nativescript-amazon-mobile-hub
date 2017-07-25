@@ -10,7 +10,7 @@
     }
   },
   "dependencies": {
-    "nativescript-aws-mobile-hub": "file:../../nativescript-aws-mobile-hub",
+    "nativescript-aws-mobile-hub": "file:../",
     "nativescript-theme-core": "~1.0.2",
     "tns-core-modules": "2.5.1"
   },
